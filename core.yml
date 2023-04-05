@@ -1,0 +1,7 @@
+core: # 网关层
+  port: 3000 # 网关层公开端口
+  allow_origins: [localhost:9528,localhost:2323,localhost:2222] # 网关层允许的跨域来源，这个地方也可以写成 localhost:9528,localhost:2323,localhost:2222 而不需要 Object
+
+collection_name: 'mog' # 数据库的集合名
+db_host: 'containers-us-west-181.railway.app' # 数据库主机地址
+#...more
